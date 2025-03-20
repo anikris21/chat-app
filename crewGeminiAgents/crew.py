@@ -9,5 +9,5 @@ crew = Crew(
 )
 
 # start task execution
-result = crew.kickoff(inputs={'AI in Fintech'})
+result = crew.kickoff(inputs={'topic': 'AI in Fintech'})
 print(result)
